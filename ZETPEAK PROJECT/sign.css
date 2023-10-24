@@ -1,0 +1,76 @@
+body{
+    font-family: system-ui, sans-serif;
+    font-size:81.25%;
+    background-image:url("image/background image_page-0001.jpg");
+    background-size: cover;
+    height:100vh;
+    background-repeat: no-repeat;
+}
+/*.image{
+    background-image:url("image/user_login_image.png");
+    margin-top:500px;
+    margin-bottom:300px;
+    position:center;
+    left:-500px;
+    right:200px;
+    border-radius:20px;
+    height:500px;
+    width:500px;
+    background-repeat:no-repeat;
+}*/
+.LOGIN{
+    
+    display: flex;
+    justify-content: space-evenly;
+    position:center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    position:relative;
+    padding: 30px;
+    margin: 20px auto;
+    text-align: absolute;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    margin-top:250PX;
+    margin-bottom:00PX;
+    left:-250PX;
+    right:100PX;
+}
+.container-subtitle{
+    color: rgb(104, 104, 104);
+}
+#Email, #password, #Name{
+    border: 1px soli black;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    width: 80%;
+    border-radius: 8px;
+    left:50px;
+    position:center;
+    align-content: center;
+}
+.submit-btn{
+    background-color: #d80202;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 8px;
+    position:center;
+    margin-bottom:10px;
+}
+.singin{
+    position:center;
+}
+
+.singin{
+    text-align: center;
+    cursor: pointer;
+}
